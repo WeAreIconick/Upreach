@@ -54,9 +54,29 @@
 			"fluid": true,
 			"fontFamilies": [
 				{
-					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
-					"name": "System Font",
-					"slug": "system-font"
+					"fontFace": [
+						{
+							"fontDisplay": "swap",
+							"fontFamily": "PublicSans",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/publicsans/PublicSans[wght].ttf"
+							]
+						},
+						{
+							"fontDisplay": "swap",
+							"fontFamily": "PublicSans",
+							"fontStyle": "italic",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/publicsans/PublicSans-Italic[wght].ttf"
+							]
+						}
+					],
+					"fontFamily": "PublicSans",
+					"name": "PublicSans",
+					"slug": "publicsans"
 				}
 			],
 			"fontSizes": [
@@ -150,7 +170,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--satoshi)"
+			"fontFamily": "var(--wp--preset--font-family--publicsans)"
 		}
 	},
 	"templateParts": [
