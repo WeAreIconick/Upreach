@@ -108,6 +108,26 @@
 		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {
+		"blocks": {
+			"core/details": {
+				"color": {
+					"background": "var(--wp--preset--color--transparent-overlay)"
+				},
+				"css": "border-radius: 0.75em\n\n& summary {\n  font-size: 1.2em;\n  display: flex;\n  justify-content: space-between;\n}\n\n& summary::after {\n  font-size: 2rem;\n  content: '+';\n  transition: 0.2s;\n  margin-top: -0.5rem;\n}\n\n&[open] > summary::after {\n  transform: rotate(-45deg);\n}\n",
+				"spacing": {
+					"padding": {
+						"bottom": "var(--wp--preset--spacing--40)",
+						"left": "var(--wp--preset--spacing--60)",
+						"right": "var(--wp--preset--spacing--60)",
+						"top": "var(--wp--preset--spacing--40)"
+					}
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--medium)",
+					"lineHeight": "1.5"
+				}
+			}
+		},
 		"color": {
 			"text": "var(--wp--preset--color--Text)"
 		},
