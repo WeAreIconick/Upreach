@@ -1,7 +1,7 @@
 {
-    "name": "theme-repo-template",
+    "name": "upreach",
     "version": "1.0.0",
-    "description": "A starter theme for FSE.  Will generally be overwritten.",
+    "description": "A theme based off of https://renewed-mindset-656459.framer.app/",
     "author": {
         "name": "George Stephanis",
         "url": "https://georgestephanis.wordpress.com"
@@ -12,9 +12,9 @@
         "theme"
     ],
     "prettier": "@wordpress/prettier-config",
-    "homepage": "https://github.com/georgestephanis/theme-repo-template",
-    "repository": "https://github.com/georgestephanis/theme-repo-template",
-    "bugs": "https://github.com/georgestephanis/theme-repo-template/issues",
+    "homepage": "https://github.com/WeAreIconick/Upreach",
+    "repository": "https://github.com/WeAreIconick/Upreach",
+    "bugs": "https://github.com/WeAreIconick/Upreach/issues",
     "private": false,
     "files": [
         "**",
@@ -47,6 +47,6 @@
         "start": "npm-run-all --parallel \"start:*\"",
         "start:js": "wp-scripts start --blocks-manifest",
         "start:css": "sass --watch sass/style.scss:style.css --style=expanded --source-map",
-        "theme-zip": "wp-scripts plugin-zip && mv theme-repo-template.zip _playground/theme-repo-template.zip"
+        "theme-zip": "wp-scripts plugin-zip && mv upreach.zip _playground/upreach.zip"
     }
 }

@@ -1,8 +1,8 @@
 {
-	"name": "georgestephanis/theme-repo-template",
+	"name": "WeAreIconick/Upreach",
 	"type": "wordpress-theme",
-	"description": "A starter theme for FSE.  Will generally be overwritten.",
-	"homepage": "https://github.com/georgestephanis/theme-repo-template",
+	"description": "A theme based off of https://renewed-mindset-656459.framer.app/",
+	"homepage": "https://github.com/WeAreIconick/Upreach",
 	"license": "GPL-2.0-or-later",
 	"repositories": [
 		{
