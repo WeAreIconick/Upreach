@@ -1,22 +1,135 @@
 {
-	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"settings": {
 		"appearanceTools": true,
+		"color": {
+			"defaultDuotone": false,
+			"defaultGradients": false,
+			"defaultPalette": false,
+			"palette": [
+				{
+					"color": "#fff",
+					"name": "White",
+					"slug": "white"
+				},
+				{
+					"color": "#f8f9fc",
+					"name": "Gray 100",
+					"slug": "gray-100"
+				},
+				{
+					"color": "#f1f3f9",
+					"name": "Gray 200",
+					"slug": "gray-200"
+				},
+				{
+					"color": "#dee3ed",
+					"name": "Gray 300",
+					"slug": "gray-300"
+				},
+				{
+					"color": "#c2c9d6",
+					"name": "Gray 400",
+					"slug": "gray-400"
+				},
+				{
+					"color": "#8f96a3",
+					"name": "Gray 500",
+					"slug": "gray-500"
+				},
+				{
+					"color": "#536e63",
+					"name": "Gray 600",
+					"slug": "gray-600"
+				},
+				{
+					"color": "#2f3237",
+					"name": "Gray 700",
+					"slug": "gray-700"
+				},
+				{
+					"color": "#1d1e20",
+					"name": "Gray 800",
+					"slug": "gray-800"
+				},
+				{
+					"color": "#111213",
+					"name": "Gray 900",
+					"slug": "gray-900"
+				},
+				{
+					"color": "#111213",
+					"name": "Black",
+					"slug": "black"
+				},
+				{
+					"color": "rgba(0,0,0,0.1)",
+					"name": "Transparent Overlay",
+					"slug": "transparent-overlay"
+				}
+			]
+		},
 		"layout": {
-			"contentSize": "620px",
-			"wideSize": "1000px"
+			"contentSize": "800px",
+			"wideSize": "1200px"
 		},
 		"spacing": {
 			"units": [ "%", "px", "rem" ]
 		},
 		"typography": {
+			"defaultFontSizes": false,
+			"fluid": true,
 			"fontFamilies": [
 				{
 					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
 					"name": "System Font",
 					"slug": "system-font"
 				}
-			]
+			],
+			"fontSizes": [
+				{
+					"fluid": false,
+					"name": "Small",
+					"size": "0.875rem",
+					"slug": "small"
+				},
+				{
+					"fluid": {
+						"max": "1.125rem",
+						"min": "1rem"
+					},
+					"name": "Medium",
+					"size": "1rem",
+					"slug": "medium"
+				},
+				{
+					"fluid": {
+						"max": "1.375rem",
+						"min": "1.125rem"
+					},
+					"name": "Large",
+					"size": "1.38rem",
+					"slug": "large"
+				},
+				{
+					"fluid": {
+						"max": "2rem",
+						"min": "1.75rem"
+					},
+					"name": "Extra Large",
+					"size": "1.75rem",
+					"slug": "x-large"
+				},
+				{
+					"fluid": {
+						"max": "4rem",
+						"min": "3.15rem"
+					},
+					"name": "Extra Extra Large",
+					"size": "3.15rem",
+					"slug": "xx-large"
+				}
+			],
+			"writingMode": true
 		},
 		"useRootPaddingAwareAlignments": true
 	},
@@ -30,5 +143,6 @@
 			"name": "footer"
 		}
 	],
-	"version": 3
+	"version": 3,
+	"$schema": "https://schemas.wp.org/6.8/theme.json"
 }
