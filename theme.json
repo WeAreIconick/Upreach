@@ -65,6 +65,21 @@
 					"color": "rgba(0,0,0,0.1)",
 					"name": "Transparent Overlay",
 					"slug": "transparent-overlay"
+				},
+				{
+					"color": "rgb(92,242,142)",
+					"name": "Bright Accent",
+					"slug": "accent-bright"
+				},
+				{
+					"color": "rgb(80,200,120)",
+					"name": "Accent",
+					"slug": "accent"
+				},
+				{
+					"color": "rgb(51,130,77)",
+					"name": "Dark Accent",
+					"slug": "accent-dark"
 				}
 			]
 		},
